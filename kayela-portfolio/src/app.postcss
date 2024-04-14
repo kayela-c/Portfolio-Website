@@ -4,14 +4,9 @@
 @tailwind variants;
 
 /* Example: secondary color via Tailwind: */
-.dark body,
- #body-cont { 
-    background: #020617; 
-    position: relative;
-}
 
 html {
-    scroll-bhavior: smooth;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -25,3 +20,30 @@ h3,
     font-family: 'Poppins', sans-serif;
 }
 
+.blueShadow {
+    box-shadow: 0px 14px 55px rgba(109, 40, 217, 0.45);
+}
+
+.specialSpin {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.blur-load {
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
+    object-position: center;
+    object-fit: cover;
+}
