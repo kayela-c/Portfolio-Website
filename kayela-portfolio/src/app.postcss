@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+/* Example: secondary color via Tailwind: */
+.dark body,
+ #body-cont { 
+    background: #020617; 
+    position: relative;
+}
+#particles-js,
+#particles-cont {
+    position: absolute;  
+}
+#body-cont {
+    z-index: 1;
+}
+#particles-cont {
+    z-index: -1;
+}
