@@ -2,4 +2,3 @@ html {
     scroll-behavior: smooth;
 }
 
-body { @apply bg-surface-50-900-token; }
