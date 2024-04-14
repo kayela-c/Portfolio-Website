@@ -57,7 +57,7 @@
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
+                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js, React + React Native
                 or Firebase/Firestore!
             </p>
             <button
